@@ -1,0 +1,132 @@
+body{
+    font-family: 'Roboto',sans-serif;
+    color: #2E2F42;
+    background-color: #fff;
+}
+header{
+    background-color:#fff;
+    position: absolute;
+    width: 1440px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+    
+    
+
+}
+.header-link {
+font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1,5;
+letter-spacing: 0.02em;
+color: #2E2F42; 
+}
+
+.web-logo{
+    color: #4D5AE5;
+}
+.studio-logo{
+    color: #2E2F42 ;
+}
+.mail-link{
+font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1,5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+.tel-link{
+font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1,5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+
+
+
+
+
+
+.hero-image{
+background-color: #2E2F42;
+width: 1440px;
+height: 600px;
+}
+.maine-title{
+    color: #fff;
+    position: absolute;
+width: 494px;
+height: 120px;
+left: 473px;
+top: 260px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 1,71;
+text-align: center;
+letter-spacing: 0.02em;
+}
+.button{ 
+flex-direction: row;
+align-items: flex-start;
+padding: 16px 32px;
+gap: 10px;
+position: absolute;
+width: 169px;
+height: 56px;
+left: 636px;
+top: 428px;
+background: #4D5AE5;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+cursor: pointer;
+}
+.hero-button{
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 24px;
+width: 116px;
+height: 48px;
+background: #F4F4FD;
+border: 1px solid #E7E9FC;
+border-radius: 4px;
+flex: none;
+order: 1;
+flex-grow: 0;
+text-decoration: none;
+cursor: pointer;
+
+}
+.hero-button:hover,
+.hero-button:focus{
+    color: #ffff;
+    background-color: #404BBF;
+    text-decoration: none;
+}
+
+
+.footer{
+Width: 1440px;
+Height: 310px;
+background-color:#2E2F42 ;
+}
+
+.footer-studio-logo{
+    color: #F4F4FD;
+}
+.footer-text{
+    color: #E7E9FC;
+}
